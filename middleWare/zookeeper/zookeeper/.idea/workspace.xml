@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82f4ed5f-cbde-41f9-92d7-fa50ba3acca3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/wind/fdc/zk/ZookeeperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/build/classes/cn/edu/ldu/ClientThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/build/classes/cn/edu/ldu/Protocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/build/classes/cn/edu/ldu/ServerUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/dist/KKServer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/src/cn/edu/ldu/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/src/cn/edu/ldu/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/src/cn/edu/ldu/ServerUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/Kk_server/src/cn/edu/ldu/ServerUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/ClientUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/NewClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/PaperLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/PaperRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/ScissorsLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/ScissorsRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/StoneLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/StoneRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/paper.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/scissors.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/build/classes/cn/edu/ldu/stone.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/dist/NIOClient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/PaperLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/PaperRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/ScissorsLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/ScissorsRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/StoneLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/StoneRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/paper.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/scissors.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/client/src/cn/edu/ldu/stone.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build/classes/cn/edu/ldu/ClientUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/build/classes/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/dist/KKClient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/src/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/kk_client/src/cn/edu/ldu/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/build/classes/cn/edu/ldu/Protocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/build/classes/cn/edu/ldu/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/dist/NIOServer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/src/cn/edu/ldu/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/src/cn/edu/ldu/Server.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../net/server/src/cn/edu/ldu/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/springboot/springboot_01/src/main/java/wind/fdc/springboot_01/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/springboot/springboot_01/src/main/java/wind/fdc/springboot_01/pojo/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../spring/springboot/springboot_01/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/demoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/note/baidu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/note/公司ID列表文件.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/HomeWork2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/statementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04_homework/src/main/java/cn/com/wind/fdc/day04_homework/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04_homework/src/main/java/cn/com/wind/fdc/day04_homework/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210722/day04_homework/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/DatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/DownloadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/LoggerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/StructureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/handler/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/note/hello.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210723/day05/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/IsCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/IsCodeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/controller/ConstraintController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/controller/RestFulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/controller/JDBCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/dao/CompanyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/dao/impl/CompanyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/controller/JpaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/mapper/JpaRepositoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/controller/JSR303Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/pojo/CompanyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/template/CompanyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/Day04HomeworkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/mapper/UserUpdateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/pojo/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210727/day07/src/test/java/cn/com/wind/fdc/day07/Day04HomeworkApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework/parseHtml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework/parseHtml/src/main/java/cn/com/wind/fdc/parse/ParseHtml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework/parseHtml/src/main/resources/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework/parseHtml/src/main/resources/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/java/cn/com/wind/fdc/day08/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/java/cn/com/wind/fdc/day08/mapper/NewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/java/cn/com/wind/fdc/day08/pojo/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/java/cn/com/wind/fdc/day08/schedule/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/java/cn/com/wind/fdc/day08/service/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/homeWorks/20210728/homework2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wind/study/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-930490506">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="386" />
+          <entry key="xml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="386" />
+          <entry key="XML" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/wind/fdc/zk/ZookeeperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.4-beta/zookeeper-3.5.4-beta.jar!/org/apache/zookeeper/CreateMode.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/wind/fdc/zk/ZookeeperTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="y" value="-5" />
+    <option name="width" value="1000" />
+    <option name="height" value="540" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1627526770322" />
+    <property name="last_opened_file_path" value="D:/java/jdk-12.0.1_windows-x64_bin/jdk-12.0.1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ZookeeperTest.testOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.wind.fdc.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.wind.fdc.zk" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.wind.fdc.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="testOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ZookeeperTest.testOperation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82f4ed5f-cbde-41f9-92d7-fa50ba3acca3" name="Default Changelist" comment="" />
+      <created>1627484385775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627484385775</updated>
+      <workItem from="1627484388972" duration="3314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ZookeeperTest_testOperation - 2021.07.29 at 00h 04m 47s.xml">
+      <configuration name="ZookeeperTest.testOperation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZookeeperTest_testOperation - 2021.07.29 at 00h 13m 55s.xml">
+      <configuration name="ZookeeperTest.testOperation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZookeeperTest_testOperation - 2021.07.29 at 00h 14m 37s.xml">
+      <configuration name="ZookeeperTest.testOperation" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3314000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1427614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3299566" />
+      <window_info anchor="bottom" id="JProfiler" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Jenkins" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/wind/fdc/zk/ZookeeperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.5.4-beta/zookeeper-3.5.4-beta.jar!/org/apache/zookeeper/CreateMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>axios</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>zookeeper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:3.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

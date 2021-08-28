@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52c34d2f-01d9-4278-bcee-5f0b0d1b3310" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/build/classes/cn/edu/ldu/ClientThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/build/classes/cn/edu/ldu/Protocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/build/classes/cn/edu/ldu/ServerUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/dist/KKServer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/src/cn/edu/ldu/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/src/cn/edu/ldu/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/src/cn/edu/ldu/ServerUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/Kk_server/src/cn/edu/ldu/ServerUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/ClientUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/NewClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/PaperLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/PaperRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/ScissorsLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/ScissorsRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/StoneLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/StoneRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/paper.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/scissors.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/build/classes/cn/edu/ldu/stone.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/dist/NIOClient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/PaperLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/PaperRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/ScissorsLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/ScissorsRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/StoneLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/StoneRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/paper.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/scissors.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/client/src/cn/edu/ldu/stone.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build/classes/.netbeans_automatic_build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build/classes/.netbeans_update_resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build/classes/cn/edu/ldu/ClientUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/build/classes/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/dist/KKClient.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/src/cn/edu/ldu/ClientUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/kk_client/src/cn/edu/ldu/ClientUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/build/built-jar.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/build/classes/cn/edu/ldu/Protocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/build/classes/cn/edu/ldu/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/dist/NIOServer.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/dist/README.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/private/private.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/private/private.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/src/cn/edu/ldu/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/src/cn/edu/ldu/Server.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../net/server/src/cn/edu/ldu/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_01/src/main/java/wind/fdc/springboot_01/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_01/src/main/java/wind/fdc/springboot_01/pojo/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_01/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/demoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/note/baidu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/note/公司ID列表文件.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/HomeWork2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/Practice06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04/src/main/java/cn/com/wind/fdc/day04/practice/statementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04_homework/src/main/java/cn/com/wind/fdc/day04_homework/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04_homework/src/main/java/cn/com/wind/fdc/day04_homework/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210722/day04_homework/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/DatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/DownloadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/LoggerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/ServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/factory/StructureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/handler/CustomExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/note/hello.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/java/cn/com/wind/fdc/exlog/lxxiu/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210723/day05/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/IsCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/IsCodeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/constraint/controller/ConstraintController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/controller/RestFulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/controller/JDBCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/dao/CompanyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/dao/impl/CompanyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jdbc/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/controller/JpaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/mapper/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jpa/mapper/JpaRepositoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/controller/JSR303Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/jsr/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/pojo/CompanyBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210726/springboot_01/src/main/java/wind/fdc/springboot_01/template/CompanyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/Day04HomeworkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/mapper/UserUpdateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/pojo/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/scheduler/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/main/java/cn/com/wind/fdc/day07/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../wind/homeWorks/20210727/day07/src/test/java/cn/com/wind/fdc/day07/Day04HomeworkApplicationTests.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-577704615">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5" />
+    <option name="y" value="-5" />
+    <option name="width" value="1000" />
+    <option name="height" value="540" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/java/jdk-12.0.1_windows-x64_bin/jdk-12.0.1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52c34d2f-01d9-4278-bcee-5f0b0d1b3310" name="Default Changelist" comment="" />
+      <created>1627262104158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627262104158</updated>
+      <workItem from="1627262117183" duration="142000" />
+      <workItem from="1627380083571" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="151000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Jenkins" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>axios</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>day06</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
